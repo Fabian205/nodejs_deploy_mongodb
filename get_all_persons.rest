@@ -1,0 +1,26 @@
+
+GET http://localhost:3000/api/persons
+
+###
+GET http://localhost:3000/api/persons/65405b368a4b0f6ec6bcde38
+
+###
+DELETE http://localhost:3000/api/persons/
+
+###
+POST http://localhost:3000/api/persons
+Content-Type: application/json
+
+{
+  "name": "Naomy Giselle Parra",
+  "number": "0988011665"
+}
+
+###
+PUT http://localhost:3000/api/persons/6542f7b73c512050c6472867
+Content-Type: application/json
+
+{
+  "name": "Dorian Josue Parra",
+  "number": "098264721"
+}
